@@ -17,10 +17,11 @@ interface Tutorial {
 
 // Sample tutorials - you can easily add more here
 const tutorials: Tutorial[] = [
-  {id: "welcome", title: "Welcome", category: "Getting Started"},
-  {id: "basics", title: "The Basics", category: "Getting Started"},
-  {id: "advanced", title: "Advanced Topics", category: "Advanced"},
-  {id: "best-practices", title: "Best Practices", category: "Advanced"},
+  {id: "typing", title: "打字", category: "新手起步"},
+  {id: "download", title: "下載檔案", category: "新手起步"},
+  {id: "banking", title: "網上銀行登入", category: "新手起步"},
+  // {id: "advanced", title: "Advanced Topics", category: "Advanced"},
+  // {id: "best-practices", title: "Best Practices", category: "Advanced"},
 ];
 
 const categories = Array.from(new Set(tutorials.map((t) => t.category)));
