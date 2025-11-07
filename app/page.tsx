@@ -1,56 +1,32 @@
-import { TutorialLayout } from "@/components/tutorial-layout"
-import { MarkdownRenderer } from "@/components/markdown-renderer"
+import {MarkdownRenderer} from "@/components/markdown-renderer";
+import {TutorialLayout} from "@/components/tutorial-layout";
 
-const welcomeContent = `# Welcome to Our Tutorial Site
+const welcomeContent = `# 威榮培訓網站 - 輕鬆學習電腦基礎技能
 
-Learn everything you need to know with our comprehensive tutorials.
+![歡迎圖片](https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071)  
 
-## Getting Started
+## 歡迎來到威榮培訓網站！
 
-This tutorial site is designed to help you learn at your own pace. Navigate through the topics using the sidebar on the left.
+您好！威榮培訓網站是專為威榮人力資源管理公司的業主及員工設計的線上學習平台。我們的目標是幫助大家輕鬆掌握基本的電腦技能，讓您在日常工作中更有效率、更自信。
 
-### Features
+無論您是初學者、中年用戶，或是對電腦不太熟悉，我們的教程都以簡單、步驟式的教學方式呈現。從開啟瀏覽器到使用電子銀行，我們涵蓋了實用的基礎知識，讓您逐步進步。
 
-- **Easy Navigation**: Browse tutorials by category
-- **Markdown Support**: All content is written in simple markdown
-- **Code Examples**: Syntax-highlighted code blocks
-- **Responsive Design**: Works on all devices
+## 最新教程
+- **電腦打字**：學習用鍵盤打字。  
+  [開始學習](tutorial/typing)  
+- **下載檔案**： 如何使用Chrome瀏覽器下載檔案。  
+  [開始學習](tutorial/download)  
+- **電子銀行登入教學**：專為商業用戶的恒生銀行e-Banking指南。  
+  [開始學習](tutorial/banking)  
 
-## Quick Start
-
-1. Choose a tutorial from the sidebar
-2. Follow along with the examples
-3. Practice what you learn
-4. Move on to the next topic
-
-### Code Example
-
-Here's a simple example:
-
-\`\`\`javascript
-function greet(name) {
-  return \`Hello, \${name}!\`;
-}
-
-console.log(greet('World'));
-\`\`\`
-
-## What You'll Learn
-
-- Fundamental concepts
-- Best practices
-- Real-world examples
-- Advanced techniques
-
-> **Tip**: Take your time with each tutorial and don't hesitate to revisit topics as needed.
-
-Ready to begin? Select your first tutorial from the sidebar!
-`
+威榮培訓網站 - 讓電腦學習變得簡單有趣！  
+© 2025 威榮人力資源管理公司。所有權利保留。
+`;
 
 export default function HomePage() {
   return (
     <TutorialLayout>
       <MarkdownRenderer content={welcomeContent} />
     </TutorialLayout>
-  )
+  );
 }
