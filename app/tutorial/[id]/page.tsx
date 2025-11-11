@@ -16,7 +16,7 @@ const tutorialContent: Record<string, string> = {
 
 ## 步驟 2: 訪問恒生銀行商業電子銀行網站
 
-1. <a href="https://www.hangseng.com/zh-hk/business/banking-digitally/online-services-business-ebanking-services/" target="_blank" >點解這裡</a>
+1. <a href="https://www.hangseng.com/zh-hk/business/banking-digitally/online-services-business-ebanking-services/" target="_blank" >點擊這裡</a>
 
     **或**
 
